@@ -19,6 +19,7 @@ func Init() {
 
 	router.HandleFunc("/", controller.InitTransaction).Methods("GET")
 	router.HandleFunc("/commit", controller.VerifTransaction).Methods("POST")
+	router.HandleFunc("/save-transaction", controller.SaveTransaction).Methods("POST")
 
 	PORT := os.Getenv("PORT")
 
