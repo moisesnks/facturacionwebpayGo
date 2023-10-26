@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"webpaygo/models"
+	"webpaygo/api/models"
 )
 
 // Handler para recibir y guardar la transacción

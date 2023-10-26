@@ -3,7 +3,7 @@ package controller
 import (
 	"html/template"
 	"net/http"
-	"webpaygo/models"
+	"webpaygo/api/models"
 
 	"github.com/fenriz07/Golang-Transbank-WebPay-Rest/pkg/transaction"
 )

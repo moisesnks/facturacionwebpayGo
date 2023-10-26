@@ -1,0 +1,13 @@
+#bd-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: api-webpay
+spec:
+  selector:
+    app: api-webpay
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer

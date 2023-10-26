@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"testing"
-	"webpaygo/controller"
+	"webpaygo/api/controller"
 )
 
 func TestVerifTransaction(t *testing.T) {

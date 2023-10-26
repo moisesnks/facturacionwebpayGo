@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"webpaygo/handler"
-	"webpaygo/models"
+	"webpaygo/api/handler"
+	"webpaygo/api/models"
 
 	"github.com/fenriz07/Golang-Transbank-WebPay-Rest/pkg/webpayplus"
 )

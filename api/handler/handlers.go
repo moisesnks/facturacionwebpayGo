@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"webpaygo/controller"
+	"webpaygo/api/controller"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
